@@ -1,10 +1,6 @@
 {
   "name": "sendtt",
-<<<<<<< Updated upstream
-=======
   "homepage": "https://kandianne.github.io/sendtt",
-
->>>>>>> Stashed changes
   "private": true,
   "version": "0.0.0",
   "type": "module",
