@@ -24,69 +24,69 @@ const SendMoney = () => {
     return (
         <form onSubmit={handleSubmit} className="lg:container flex flex-col">
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left">Sender First Name:</label>
+                <label className="text-sm font-medium text-left w-2/3">Sender First Name:</label>
                 <input
                     type="text"
                     name="senderFirstName"
                     value={formData.senderFirstName}
                     onChange={handleChange}
                     required
-                    className="border border-gray-300 rounded px-2 py-1 w-2/3"
+                    className="border border-gray-300 rounded px-2 py-1 w-3/4"
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left">Sender Last Name:</label>
+                <label className="text-sm font-medium text-left  w-2/3">Sender Last Name:</label>
                 <input
                     type="text"
                     name="senderLastName"
                     value={formData.senderLastName}
                     onChange={handleChange}
                     required
-                    className="border border-gray-300 rounded px-2 py-1 w-2/3"
+                    className="border border-gray-300 rounded px-2 py-1 w-3/4"
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left">Receiver First Name:</label>
+                <label className="text-sm font-medium text-left  w-2/3">Receiver First Name:</label>
                 <input
                     type="text"
                     name="receiverFirstName"
                     value={formData.receiverFirstName}
                     onChange={handleChange}
                     required
-                    className="border border-gray-300 rounded px-2 py-1 w-2/3"
+                    className="border border-gray-300 rounded px-2 py-1 w-3/4"
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left">Receiver Last Name:</label>
+                <label className="text-sm font-medium text-left  w-2/3">Receiver Last Name:</label>
                 <input
                     type="text"
                     name="receiverLastName"
                     value={formData.receiverLastName}
                     onChange={handleChange}
                     required
-                    className="border border-gray-300 rounded px-2 py-1 w-2/3"
+                    className="border border-gray-300 rounded px-2 py-1 w-3/4"
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left">Receiver Bank:</label>
+                <label className="text-sm font-medium text-left  w-2/3">Receiver Bank:</label>
                 <input
                     type="text"
                     name="receiverBank"
                     value={formData.receiverBank}
                     onChange={handleChange}
                     required
-                    className="border border-gray-300 rounded px-2 py-1 w-2/3"
+                    className="border border-gray-300 rounded px-2 py-1 w-3/4"
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left">Amount to Send:</label>
+                <label className="text-sm font-medium text-left  w-2/3">Amount to Send:</label>
                 <input
                     type="number"
                     name="amount"
                     value={formData.amount}
                     onChange={handleChange}
                     required
-                    className="border border-gray-300 rounded px-2 py-1 w-2/3"
+                    className="border border-gray-300 rounded px-2 py-1 w-3/4"
                 />
             </div>
             <button
