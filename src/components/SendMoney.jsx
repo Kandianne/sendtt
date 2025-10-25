@@ -35,7 +35,7 @@ const SendMoney = () => {
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left  w-2/3">Sender Last Name:</label>
+                <label className="text-sm font-medium text-left w-2/3">Sender Last Name:</label>
                 <input
                     type="text"
                     name="senderLastName"
@@ -46,7 +46,7 @@ const SendMoney = () => {
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left  w-2/3">Receiver First Name:</label>
+                <label className="text-sm font-medium text-left w-2/3">Receiver First Name:</label>
                 <input
                     type="text"
                     name="receiverFirstName"
@@ -57,7 +57,7 @@ const SendMoney = () => {
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left  w-2/3">Receiver Last Name:</label>
+                <label className="text-sm font-medium text-left w-2/3">Receiver Last Name:</label>
                 <input
                     type="text"
                     name="receiverLastName"
@@ -68,7 +68,7 @@ const SendMoney = () => {
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left  w-2/3">Receiver Bank:</label>
+                <label className="text-sm font-medium text-left w-2/3">Receiver Bank:</label>
                 <input
                     type="text"
                     name="receiverBank"
@@ -79,7 +79,7 @@ const SendMoney = () => {
                 />
             </div>
             <div className="flex justify-between items-center mb-4">
-                <label className="text-sm font-medium text-left  w-2/3">Amount to Send:</label>
+                <label className="text-sm font-medium text-left w-2/3">Amount to Send:</label>
                 <input
                     type="number"
                     name="amount"
